@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "start1"
+version = "0.1.0"
+description = ""
+authors = ["Raj Goel <rgoel@ipdanalytics.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.4.0"
+transformers = "^4.43.3"
+datasets = "^2.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
